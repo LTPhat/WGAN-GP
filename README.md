@@ -33,16 +33,30 @@ python main.py --n_epochs  --batch_size --train_samples --latent_dim --n_critics
 ```
 
 ## Result
-
-- Loss:
+### Loss:
 ![alt text](https://github.com/LTPhat/WGAN-GP/blob/main/res/loss.png)
 
-- Images:
+### Images:
+- Epoch 1:
+
+| Real                                | Fake                                |
+| ----------------------------------- | ----------------------------------- |
+| ![cat](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch1_real.png) | ![dog](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch1_fake.png)|
 
 
+- Epoch 10:
+  
 | Real                                | Fake                          |
 | ----------------------------------- | ----------------------------------- |
-| ![cat](https://github.com/LTPhat/WGAN-GP/blob/main/res/real.png) | ![dog](https://github.com/LTPhat/WGAN-GP/blob/main/res/fake.png) |
+| ![cat](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch10_real.png) | ![dog](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch10_fake.png) |
+
+- Epoch 25:
+  
+| Real                                | Fake                          |
+| ----------------------------------- | ----------------------------------- |
+| ![cat](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch25_real.png) | ![dog](https://github.com/LTPhat/WGAN-GP/blob/main/res/epoch25_fake.png) |
+
+
 
 
 
